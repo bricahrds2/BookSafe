@@ -1,0 +1,5 @@
+[[redirects]]
+    from = "/*"
+    to = "/layout.ejs"
+    status = 200
+
