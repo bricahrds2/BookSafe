@@ -1,5 +1,9 @@
+[build]
+command = "npm run start"
+base = "/"
+
+
 [[redirects]]
     from = "/*"
     to = "/layout.ejs"
     status = 200
-
