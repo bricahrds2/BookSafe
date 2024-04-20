@@ -7,7 +7,7 @@ const app = express()
 const expressLayouts = require("express-ejs-layouts")
 const serverless = require('serverless-http')
 
-const indexRouter = require('./routes/index')
+const indexRouter = require('../../routes/index')
 
 app.set('view engine', 'ejs')
 app.set('views', __dirname + '/views')
