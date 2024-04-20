@@ -4,5 +4,5 @@ base = "/"
 
 [[redirects]]
     from = "/*"
-    to = "/layout.ejs"
+    to = "/"
     status = 200
